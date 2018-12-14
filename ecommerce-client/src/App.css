@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.app nav,main {
+  padding: 10px;
+}
+
+a.admin {
+  background-color: rgb(200, 147, 128);
+}
+
+.app main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

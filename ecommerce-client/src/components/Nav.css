@@ -1,0 +1,16 @@
+.app nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.app nav a {
+  padding: 10px;
+}
+
+.app nav a:hover {
+  background-color: lightslategray;
+}
+
+.app nav a.active {
+  font-style: italic;
+}
